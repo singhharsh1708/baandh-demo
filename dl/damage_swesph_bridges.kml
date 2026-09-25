@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="damage_swesph_bridges" id="damage_swesph_bridges">
+	<SimpleField name="osm_id" type="int"></SimpleField>
+	<SimpleField name="kind" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="railway" type="string"></SimpleField>
+	<SimpleField name="max_depth" type="float"></SimpleField>
+	<SimpleField name="arrival" type="float"></SimpleField>
+	<SimpleField name="depth_cls" type="string"></SimpleField>
+</Schema>
+<Folder><name>damage_swesph_bridges</name>
+  <Placemark id="damage_swesph_bridges.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_swesph_bridges">
+		<SimpleData name="osm_id">782449337</SimpleData>
+		<SimpleData name="kind">rail</SimpleData>
+		<SimpleData name="railway">rail</SimpleData>
+		<SimpleData name="max_depth">0.71</SimpleData>
+		<SimpleData name="arrival">162</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1130721,14.2446227 79.1131341,14.2444228</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_swesph_bridges.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_swesph_bridges">
+		<SimpleData name="osm_id">782449335</SimpleData>
+		<SimpleData name="kind">rail</SimpleData>
+		<SimpleData name="railway">rail</SimpleData>
+		<SimpleData name="max_depth">0.71</SimpleData>
+		<SimpleData name="arrival">162</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1131196,14.2446345 79.1131774,14.2444415</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_swesph_bridges.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_swesph_bridges">
+		<SimpleData name="osm_id">782449331</SimpleData>
+		<SimpleData name="kind">rail</SimpleData>
+		<SimpleData name="railway">rail</SimpleData>
+		<SimpleData name="max_depth">0.36</SimpleData>
+		<SimpleData name="arrival">174</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1111529,14.2506657 79.1112385,14.2504021</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_swesph_bridges.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_swesph_bridges">
+		<SimpleData name="osm_id">782449333</SimpleData>
+		<SimpleData name="kind">rail</SimpleData>
+		<SimpleData name="railway">rail</SimpleData>
+		<SimpleData name="max_depth">0.36</SimpleData>
+		<SimpleData name="arrival">174</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1112254,14.2506978 79.111323,14.2503994</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_swesph_bridges.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_swesph_bridges">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="kind">rail</SimpleData>
+		<SimpleData name="railway">rail</SimpleData>
+		<SimpleData name="max_depth">3.57</SimpleData>
+		<SimpleData name="arrival">114</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.107603,14.2612932 79.1107818,14.2519892</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_swesph_bridges.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_swesph_bridges">
+		<SimpleData name="osm_id">567442395</SimpleData>
+		<SimpleData name="kind">road</SimpleData>
+		<SimpleData name="highway">construction</SimpleData>
+		<SimpleData name="max_depth">4.17</SimpleData>
+		<SimpleData name="arrival">118</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1143432,14.2543539 79.1138738,14.2557473 79.1132247,14.2576087 79.1127849,14.2589188 79.1125435,14.2597247 79.1122028,14.2606892 79.1114759,14.262761</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_swesph_bridges.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_swesph_bridges">
+		<SimpleData name="osm_id">325745681</SimpleData>
+		<SimpleData name="kind">road</SimpleData>
+		<SimpleData name="highway">trunk</SimpleData>
+		<SimpleData name="max_depth">4.26</SimpleData>
+		<SimpleData name="arrival">120</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1152224,14.2544274 79.1123171,14.263035 79.1122701,14.2631743</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_swesph_bridges.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_swesph_bridges">
+		<SimpleData name="osm_id">1450181321</SimpleData>
+		<SimpleData name="kind">road</SimpleData>
+		<SimpleData name="highway">secondary</SimpleData>
+		<SimpleData name="max_depth">5.99</SimpleData>
+		<SimpleData name="arrival">66</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.0415876,14.249345 79.0417245,14.2491574</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_swesph_bridges.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_swesph_bridges">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="kind">rail</SimpleData>
+		<SimpleData name="railway">rail</SimpleData>
+		<SimpleData name="max_depth">3.81</SimpleData>
+		<SimpleData name="arrival">114</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1075431,14.2612795 79.1107334,14.2519582</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

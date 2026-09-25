@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="damage_d3d_railways" id="damage_d3d_railways">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="depth_cls" type="string"></SimpleField>
+	<SimpleField name="max_depth" type="float"></SimpleField>
+	<SimpleField name="length_m" type="float"></SimpleField>
+</Schema>
+<Folder><name>damage_d3d_railways</name>
+  <Placemark id="damage_d3d_railways.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.45</SimpleData>
+		<SimpleData name="length_m">80</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1131341,14.2444228 79.1131885740922,14.2442501172618 79.1132430480862,14.2440774344985 79.1132975219817,14.2439047517102 79.1133519957789,14.2437320688969</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.94</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1133519957789,14.2437320688969 79.1134064694778,14.2435593860585 79.1134609430784,14.2433867031952</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.29</SimpleData>
+		<SimpleData name="length_m">60</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1134609430784,14.2433867031952 79.1135154165806,14.2432140203068 79.1135702884517,14.2430414601818 79.1136274120466,14.2428695939346</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">3.31</SimpleData>
+		<SimpleData name="length_m">80</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1136274120466,14.2428695939346 79.1136845355399,14.2426977276606 79.1137416589316,14.2425258613601 79.1137987822217,14.2423539950328 79.1138559054101,14.2421821286788</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.3</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1138559054101,14.2421821286788 79.113913028497,14.2420102622982</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">4.32</SimpleData>
+		<SimpleData name="length_m">819.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.113913028497,14.2420102622982 79.1139701514821,14.2418383958908 79.1140272743657,14.2416665294568 79.1140843971477,14.2414946629961 79.114141519828,14.2413227965087 79.1141986424068,14.2411509299947 79.1142557648839,14.2409790634539 79.1143128872594,14.2408071968865 79.1143700095333,14.2406353302924 79.1144271317056,14.2404634636716 79.1144842537763,14.2402915970242 79.1145413757453,14.24011973035 79.1145984976128,14.2399478636492 79.1146556193787,14.2397759969217 79.114712741043,14.2396041301675 79.1147698626056,14.2394322633867 79.1148269840667,14.2392603965792 79.1148841054262,14.239088529745 79.1149412266841,14.2389166628841 79.1150001892193,14.2387453896525 79.1150593234015,14.2385741717651 79.1151184574797,14.2384029538496 79.1151775914538,14.2382317359063 79.1152367253238,14.2380605179349 79.1152958590899,14.2378892999356 79.1153549927518,14.2377180819083 79.1154141263098,14.237546863853 79.1154732597637,14.2373756457698 79.1155323931136,14.2372044276586 79.1155915263595,14.2370332095194 79.1156506595013,14.2368619913523 79.1157097925391,14.2366907731572 79.1157689254728,14.2365195549341 79.1158280583026,14.2363483366831 79.1158871910283,14.2361771184041 79.1159457838458,14.2360057236818 79.1160043383502,14.2358343164445 79.1160628927512,14.2356629091795 79.116121447049,14.235491501887 79.1161800012435,14.2353200945669 79.1162385553346,14.2351486872192 79.1162971093225,14.2349772798439</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.27</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1162971093225,14.2349772798439 79.116355663207,14.234805872441</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.67</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.116355663207,14.234805872441 79.1164142169882,14.2346344650106 79.1164727706661,14.2344630575526</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.44</SimpleData>
+		<SimpleData name="length_m">60</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1164727706661,14.2344630575526 79.1165313242408,14.234291650067 79.1165898777121,14.2341202425538 79.1166484310801,14.233948835013</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.28</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1166484310801,14.233948835013 79.1167069843448,14.2337774274446 79.1167655375063,14.2336060198487</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.08</SimpleData>
+		<SimpleData name="length_m">100</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1167655375063,14.2336060198487 79.1168240905644,14.2334346122252 79.1168826435192,14.2332632045741 79.1169411963708,14.2330917968955 79.116999749119,14.2329203891892 79.117058301764,14.2327489814554</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449336</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.36</SimpleData>
+		<SimpleData name="length_m">60</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.117058301764,14.2327489814554 79.1171168543057,14.232577573694 79.1171754067441,14.2324061659051 79.1172339590793,14.2322347580885</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449334</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.45</SimpleData>
+		<SimpleData name="length_m">59.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1131774,14.2444415 79.1132322520776,14.2442690478536 79.1132871040565,14.244096595682 79.1133419559367,14.2439241434851</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449334</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.94</SimpleData>
+		<SimpleData name="length_m">59.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1133419559367,14.2439241434851 79.1133968077181,14.2437516912629 79.1134516594008,14.2435792390155 79.1135065109847,14.2434067867429</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449334</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.29</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1135065109847,14.2434067867429 79.11356136247,14.243234334445 79.1136156861339,14.2430617254746</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449334</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">4.32</SimpleData>
+		<SimpleData name="length_m">939</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1136156861339,14.2430617254746 79.1136686222074,14.242888704621 79.1137215581847,14.2427156837434 79.1137744940656,14.2425426628417 79.1138274298502,14.242369641916 79.1138803655385,14.2421966209662 79.1139338006377,14.242023753061 79.1139918199633,14.241852289949 79.1140498391862,14.2416808268097 79.1141078583066,14.2415093636431 79.1141658773243,14.2413379004493 79.1142238962394,14.2411664372283 79.1142819150518,14.24099497398 79.1143408309911,14.2408238038139 79.1144003881805,14.2406528431392 79.1144599452655,14.2404818824362 79.114519502246,14.2403109217051 79.114579059122,14.2401399609456 79.1146386158935,14.239969000158 79.1146981725605,14.2397980393421 79.1147577291231,14.2396270784979 79.1148172855812,14.2394561176255 79.1148768419348,14.2392851567249 79.1149363981839,14.239114195796 79.1149959543285,14.2389432348389 79.1150555103687,14.2387722738536 79.1151134123736,14.2386007762668 79.1151706968269,14.2384290783381 79.1152279811784,14.2382573803827 79.1152852654282,14.2380856824006 79.1153425495763,14.2379139843916 79.1153998336227,14.2377422863559 79.1154571175675,14.2375705882934 79.1155144014105,14.2373988902042 79.1155716851518,14.2372271920882 79.1156289687915,14.2370554939455 79.1156862523294,14.2368837957759 79.1157435357657,14.2367120975797 79.1158008191002,14.2365403993566 79.11585892146,14.2363689640094 79.1159173517673,14.236197633924 79.1159757819715,14.2360263038112 79.1160342120725,14.2358549736709 79.1160926420705,14.235683643503 79.1161510719655,14.2355123133077 79.1162095017573,14.2353409830849 79.1162679314461,14.2351696528346 79.1163263610318,14.2349983225568</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449334</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.27</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1163263610318,14.2349983225568 79.1163847905144,14.2348269922515</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449334</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">3.42</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1163847905144,14.2348269922515 79.116443219894,14.2346556619187 79.1165016491704,14.2344843315584</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449334</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.44</SimpleData>
+		<SimpleData name="length_m">59.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1165016491704,14.2344843315584 79.1165600783439,14.2343130011706 79.1166188935917,14.2341417969342 79.1166780526091,14.2339707050262</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449334</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.28</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1166780526091,14.2339707050262 79.1167372115226,14.2337996130904 79.1167963703322,14.2336285211265</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449334</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.08</SimpleData>
+		<SimpleData name="length_m">99.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1167963703322,14.2336285211265 79.1168555290377,14.2334574291347 79.1169146876394,14.233286337115 79.1169738461371,14.2331152450673 79.1170330045309,14.2329441529916 79.1170921628207,14.232773060888</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449334</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.5</SimpleData>
+		<SimpleData name="length_m">59.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1170921628207,14.232773060888 79.1171513210066,14.2326019687564 79.1172104790886,14.2324308765968 79.1172696370666,14.2322597844093</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643023431</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.38</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1208332069835,14.2220526537548 79.1208888942169,14.2218829254362</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643023431</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.27</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1211140907802,14.2212047903126 79.1211716116802,14.221035644939</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449337</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.37</SimpleData>
+		<SimpleData name="length_m">23.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1130721,14.2446227 79.1131031000162,14.2445227500041 79.1131341,14.2444228</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449335</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.37</SimpleData>
+		<SimpleData name="length_m">22.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1131196,14.2446345 79.1131485000147,14.2445380000036 79.1131774,14.2444415</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449330</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.2</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1116732381051,14.249043194577 79.111727579935,14.2488733312879</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449330</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.52</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1119449462915,14.2481938778845 79.1119992876399,14.2480240144718</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449330</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.01</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1122166520708,14.2473445605743 79.1122709929379,14.2471746970381</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449330</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.23</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1122709929379,14.2471746970381 79.1123253337086,14.2470048334772</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449330</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.47</SimpleData>
+		<SimpleData name="length_m">39.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1124750520549,14.2464913922239 79.1125281229894,14.2463211617857 79.1125825211239,14.2461513157184</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449330</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.56</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1128001126988,14.245471931202 79.1128545103517,14.2453020850111</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449330</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.66</SimpleData>
+		<SimpleData name="length_m">78.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1128545103517,14.2453020850111 79.1129089079082,14.2451322387954 79.1129633053685,14.244962392555 79.1130177027324,14.2447925462899 79.1130721,14.2446227</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449332</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.38</SimpleData>
+		<SimpleData name="length_m">19.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1113767461665,14.2502301096158 79.1114304922379,14.2500608192072</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449332</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.37</SimpleData>
+		<SimpleData name="length_m">58.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1116444779866,14.2493833570831 79.111697880497,14.2492139632935 79.1117512829128,14.2490445694799 79.1118046852339,14.2488751756421</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449332</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.52</SimpleData>
+		<SimpleData name="length_m">39.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1119626884901,14.248366351582 79.1120133664795,14.2481961633845 79.1120640443777,14.2480259751645</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449332</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.01</SimpleData>
+		<SimpleData name="length_m">39.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1122160775249,14.2475154103699 79.1122667550583,14.2473452220601 79.1123174325004,14.2471750337279</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449332</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.23</SimpleData>
+		<SimpleData name="length_m">19.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1123174325004,14.2471750337279 79.1123681098514,14.2470048453733</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449332</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.47</SimpleData>
+		<SimpleData name="length_m">58.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1124748213404,14.2466660360583 79.1125285534179,14.2464967415202 79.1125822854003,14.2463274469579 79.1126360172878,14.2461581523713</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449332</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.49</SimpleData>
+		<SimpleData name="length_m">39.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1127972123802,14.2456502684659 79.1128509438877,14.2454809737822 79.1129046753001,14.2453116790743</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">782449332</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.37</SimpleData>
+		<SimpleData name="length_m">78.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1129046753001,14.2453116790743 79.1129584066176,14.2451423843421 79.1130121378401,14.2449730895857 79.1130658689675,14.244803794805 79.1131196,14.2446345</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419904</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.41</SimpleData>
+		<SimpleData name="length_m">18.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1108372503226,14.2518277750865 79.1108927005531,14.2516663501482</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.38</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1075431,14.2612795 79.1076011081913,14.26111002255</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.38</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1076011081913,14.26111002255 79.1076591162812,14.2609405450729 79.1077171242697,14.2607710675687</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.2</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1077751321569,14.2606015900374 79.1078331399426,14.2604321124789 79.107891147627,14.2602626348934</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.13</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1080071626916,14.259923679641 79.1080651700718,14.2597542019741</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.13</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1080651700718,14.2597542019741 79.1081231773506,14.2595847242801 79.1081811845281,14.259415246559</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.16</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1081811845281,14.259415246559 79.1082391916042,14.2592457688107</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.15</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1083552054523,14.258906813233 79.1084132122243,14.2587373354035 79.1084712188949,14.2585678575468</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.22</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1084712188949,14.2585678575468 79.1085292254641,14.2583983796631</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.91</SimpleData>
+		<SimpleData name="length_m">59.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.108587231932,14.2582289017522 79.1086452382985,14.2580594238142 79.1087032445637,14.2578899458492 79.1087612507275,14.257720467857</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.86</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1088772627511,14.2573815117913 79.1089352686108,14.2572120337178</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.53">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.07</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1089352686108,14.2572120337178 79.1089932743692,14.2570425556173 79.1090512800262,14.2568730774896</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.86</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1091092855819,14.2567035993348 79.1091672910362,14.2565341211529</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.98</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1091672910362,14.2565341211529 79.1092252963892,14.2563646429439</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.27</SimpleData>
+		<SimpleData name="length_m">79.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1092252963892,14.2563646429439 79.1092833016409,14.2561951647078 79.1093413067912,14.2560256864446 79.1093993118401,14.2558562081544 79.1094573167877,14.255686729837</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.98</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1094573167877,14.255686729837 79.109515321634,14.2555172514925</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.74</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.109515321634,14.2555172514925 79.109573326379,14.2553477731209</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.75</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1097473400058,14.2548393378436 79.1098053443455,14.2546698593637</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.46</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1098053443455,14.2546698593637 79.1098633485837,14.2545003808566</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">3.9</SimpleData>
+		<SimpleData name="length_m">138.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1099793567564,14.2541614237612 79.1100373606907,14.2539919451729 79.1100953645237,14.2538224665575 79.1101533682554,14.253652987915 79.1102113718857,14.2534835092454 79.1102693754148,14.2533140305487 79.1103273788425,14.2531445518249 79.1103853821689,14.252975073074</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.62">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.99</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1103853821689,14.252975073074 79.110443385394,14.2528055942961</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.63">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598686</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.19</SimpleData>
+		<SimpleData name="length_m">19.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1105593915403,14.2524666366589 79.1106173944615,14.2522971577997</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.64">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.38</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.107603,14.2612932 79.1076607990863,14.2611240370909</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.65">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.38</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1076607990863,14.2611240370909 79.1077185980718,14.2609548741549 79.1077763969564,14.2607857111919</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.66">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.8</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1077763969564,14.2607857111919 79.1078341957401,14.260616548202</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.67">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.2</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1078341957401,14.260616548202 79.1078919944229,14.2604473851851 79.1079497930049,14.2602782221413</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.68">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">3.7</SimpleData>
+		<SimpleData name="length_m">59.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1080653898663,14.2599398959729 79.1081231881457,14.2597707328482 79.1081809863243,14.2596015696966 79.108238784402,14.2594324065181</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.69">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.16</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.108238784402,14.2594324065181 79.1082965823788,14.2592632433127 79.1083543802548,14.2590940800803</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.70">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">3.63</SimpleData>
+		<SimpleData name="length_m">59.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1083543802548,14.2590940800803 79.10841217803,14.2589249168209 79.1084699757043,14.2587557535347 79.1085277732777,14.2585865902214</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.71">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.22</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1085277732777,14.2585865902214 79.1085855707503,14.2584174268813</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.72">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.91</SimpleData>
+		<SimpleData name="length_m">78.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1085855707503,14.2584174268813 79.1086433681221,14.2582482635142 79.108701165393,14.2580791001202 79.1087589625631,14.2579099366992 79.1088167596324,14.2577407732513</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.73">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.86</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1088745566008,14.2575716097765 79.1089323534683,14.2574024462747 79.1089901502351,14.257233282746</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.74">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.07</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1089901502351,14.257233282746 79.109047946901,14.2570641191904 79.1091057434661,14.2568949556078</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.75">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.98</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1091635399303,14.2567257919983 79.1092213362938,14.2565566283619 79.1092791325564,14.2563874646985</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.76">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.27</SimpleData>
+		<SimpleData name="length_m">59.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1092791325564,14.2563874646985 79.1093369287182,14.2562183010082 79.1093947247791,14.256049137291 79.1094525207393,14.2558799735468</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.77">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.98</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1094525207393,14.2558799735468 79.1095103165986,14.2557108097757 79.1095681123571,14.2555416459777</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.78">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.74</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1095681123571,14.2555416459777 79.1096259080148,14.2553724821528 79.1096837035717,14.2552033183009</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.79">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.75</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1097414990277,14.2550341544221 79.109799294383,14.2548649905164 79.1098570896374,14.2546958265838</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.80">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.46</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1098570896374,14.2546958265838 79.1099148847911,14.2545266626242</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.81">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">5.48</SimpleData>
+		<SimpleData name="length_m">157.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1099726798439,14.2543574986377 79.1100304747959,14.2541883346243 79.1100882696472,14.2540191705839 79.1101460643976,14.2538500065167 79.1102038590472,14.2536808424225 79.1102616535961,14.2535116783014 79.1103194480441,14.2533425141533 79.1103772423914,14.2531733499784 79.1104350366378,14.2530041857765</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.82">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.99</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1104350366378,14.2530041857765 79.1104928307835,14.2528350215477</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.83">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.09</SimpleData>
+		<SimpleData name="length_m">19.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1105506248283,14.252665857292 79.1106084187724,14.2524966930094</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.84">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">114419939</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.19</SimpleData>
+		<SimpleData name="length_m">39.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1106084187724,14.2524966930094 79.1106662126157,14.2523275286998 79.1107240063583,14.2521583643634</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.85">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043293</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.27</SimpleData>
+		<SimpleData name="length_m">19</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1058635501641,14.2654240000525 79.1059342,14.2652669</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.86">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043285</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.66</SimpleData>
+		<SimpleData name="length_m">38</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1052338003158,14.2670110400959 79.1053001002105,14.266851920064 79.1053664,14.2666928</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.87">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043294</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.06</SimpleData>
+		<SimpleData name="length_m">17.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1050210001761,14.2679361500535 79.1050816001321,14.2677905750401</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.88">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043284</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.42</SimpleData>
+		<SimpleData name="length_m">35.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1045936,14.268675 79.1046510431214,14.2685236857898 79.1047084861547,14.2683723715544</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.89">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043284</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.45</SimpleData>
+		<SimpleData name="length_m">17.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1049382574071,14.2677671143612 79.1049957,14.2676158</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.90">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598680</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.42</SimpleData>
+		<SimpleData name="length_m">59.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1045150392579,14.2689332541595 79.1045702748166,14.2687614337414 79.1046165430714,14.2685869916779 79.1046620675859,14.2684123619544</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.91">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598680</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.13</SimpleData>
+		<SimpleData name="length_m">19.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1046620675859,14.2684123619544 79.1047075920139,14.2682377322111</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.92">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598680</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.45</SimpleData>
+		<SimpleData name="length_m">19.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1048945291052,14.2677288613564 79.1049542305567,14.267558342821</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.93">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598680</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.48</SimpleData>
+		<SimpleData name="length_m">19.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1049542305567,14.267558342821 79.1050139319036,14.2673878242573</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.94">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598680</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.63</SimpleData>
+		<SimpleData name="length_m">19.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1051932487897,14.2668763396322 79.1052531659647,14.2667058931166</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.95">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043286</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.66</SimpleData>
+		<SimpleData name="length_m">19.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1053112146951,14.2667109619015 79.1052508718852,14.2668807428091</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.96">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043286</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.45</SimpleData>
+		<SimpleData name="length_m">19.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1050126088541,14.2675608462468 79.1049601422378,14.2677330977863</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.97">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043286</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.25</SimpleData>
+		<SimpleData name="length_m">39.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1046996848193,14.2685948942553 79.1046495658825,14.2687678098367 79.1046034339128,14.268941714833</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.98">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043292</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.97</SimpleData>
+		<SimpleData name="length_m">19.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1036091010726,14.281323297917 79.1036156981584,14.2811435061168</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.99">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043292</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">3.12</SimpleData>
+		<SimpleData name="length_m">238.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1036156981584,14.2811435061168 79.103621555019,14.2809636904774 79.1036271337179,14.2807838658779 79.1036327123893,14.2806040412746 79.10363603659,14.2804241651813 79.1036390953447,14.2802442830231 79.1036376024063,14.2800644088092 79.1036338832254,14.2798845384803 79.103630164032,14.2797046681495 79.1036258994894,14.2795248097836 79.1036213190956,14.2793449583466 79.1036162891279,14.2791651210157 79.1036090039257,14.2789853544553</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.100">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043292</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.9</SimpleData>
+		<SimpleData name="length_m">19.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.104778045214,14.2688447886884 79.104825497024,14.2686709357624</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.101">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043292</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.22</SimpleData>
+		<SimpleData name="length_m">39.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1049802000686,14.2681527507196 79.1050350081504,14.2679809679918 79.1050898161338,14.2678091852389</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.102">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043292</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.55</SimpleData>
+		<SimpleData name="length_m">39.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1052644114118,14.2672970789003 79.1053241949148,14.2671268820058 79.1053839783133,14.2669566850828</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.103">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043292</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.66</SimpleData>
+		<SimpleData name="length_m">39.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1053839783133,14.2669566850828 79.1054437616074,14.2667864881315 79.1055035447969,14.2666162911517</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.104">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043292</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.24</SimpleData>
+		<SimpleData name="length_m">79.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1055633278819,14.2664460941436 79.1056231108625,14.266275897107 79.105681859653,14.2661053605287 79.1057397800093,14.2659345519633 79.1057977002634,14.2657637433708</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.105">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">643043292</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.27</SimpleData>
+		<SimpleData name="length_m">39.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1058556204152,14.265592934751 79.1059135404648,14.265422126104 79.1059714604121,14.2652513174299</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.106">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598685</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.25</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1046656396889,14.2688985660837 79.1047144242492,14.2687243421339</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.107">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598685</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.9</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1047144242492,14.2687243421339 79.1047632087183,14.2685501181625</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.108">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598685</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.66</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1052593509767,14.2669986872414 79.1053191673433,14.2668277650889 79.105379229366,14.2666569256116</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.109">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598685</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.87</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1055621821928,14.2661453382914 79.1056231662555,14.2659748091261 79.1056882056614,14.2658057573876</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.110">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598685</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.27</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1058253692786,14.2654702350256 79.1058939509146,14.2653024737929</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.111">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598685</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.31</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1061015133423,14.2647999203396 79.1061739796894,14.2646337198056 79.1062464459172,14.2644675192343</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.112">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598685</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.96</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1063913780147,14.2641351179795 79.1064638438846,14.263968917296</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.113">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598685</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.41</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1066861358747,14.2634724094085 79.1067616587145,14.2633075235266</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.114">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598685</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.38</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1074844340892,14.2614508008555 79.1075431,14.2612795</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.115">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598684</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.9</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1047067261096,14.2689018522034 79.1047542944459,14.2687273569735 79.1048018626926,14.2685528617226</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.116">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598684</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.66</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1053040105667,14.2670037529592 79.1053655295108,14.266833456111 79.1054270483479,14.2666631592332</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.117">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598684</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.24</SimpleData>
+		<SimpleData name="length_m">59.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.105549937992,14.2663225161922 79.1056080730954,14.2661510923336 79.1056662080958,14.2659796684477 79.1057297900569,14.2658100974365</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.118">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598684</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.27</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1058573602924,14.2654710936463 79.1059211452456,14.2653015917045</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.119">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598684</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.31</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1061352556114,14.2648018402646 79.1062089068269,14.2646361868066 79.1062825579218,14.2644705333104</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.120">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598684</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">&gt;1.5 m</SimpleData>
+		<SimpleData name="max_depth">2.76</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1063562088963,14.2643048797759 79.1064298597503,14.2641392262031</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.121">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598684</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.96</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1064298597503,14.2641392262031 79.1065035104839,14.2639735725921 79.106577161097,14.2638079189428</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.122">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598684</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.1-0.5 m</SimpleData>
+		<SimpleData name="max_depth">0.41</SimpleData>
+		<SimpleData name="length_m">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1066514113124,14.2636425234078 79.1067272579222,14.2634778150588 79.1068031044093,14.2633131066698</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.123">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598684</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">0.68</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1069547970154,14.262983689772 79.1070306431344,14.2628189812633</coordinates></LineString>
+  </Placemark>
+  <Placemark id="damage_d3d_railways.124">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_railways">
+		<SimpleData name="osm_id">245598684</SimpleData>
+		<SimpleData name="type">rail</SimpleData>
+		<SimpleData name="depth_cls">0.5-1.5 m</SimpleData>
+		<SimpleData name="max_depth">1.38</SimpleData>
+		<SimpleData name="length_m">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.1075408061464,14.2614632632863 79.107603,14.2612932</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

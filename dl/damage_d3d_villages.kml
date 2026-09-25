@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="damage_d3d_villages" id="damage_d3d_villages">
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="lon" type="float"></SimpleField>
+	<SimpleField name="lat" type="float"></SimpleField>
+	<SimpleField name="bldg_total" type="string"></SimpleField>
+	<SimpleField name="bldg_wet" type="string"></SimpleField>
+	<SimpleField name="bldg_c1" type="string"></SimpleField>
+	<SimpleField name="bldg_c2" type="string"></SimpleField>
+	<SimpleField name="bldg_c3" type="string"></SimpleField>
+	<SimpleField name="pop_wet" type="float"></SimpleField>
+	<SimpleField name="dmg_eq" type="float"></SimpleField>
+	<SimpleField name="max_depth" type="float"></SimpleField>
+	<SimpleField name="arr_min" type="float"></SimpleField>
+</Schema>
+<Folder><name>damage_d3d_villages</name>
+  <Placemark id="damage_d3d_villages.1">
+	<name>Nandaluru</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">245626858</SimpleData>
+		<SimpleData name="lon">79.10796</SimpleData>
+		<SimpleData name="lat">14.27041</SimpleData>
+		<SimpleData name="bldg_total">1444</SimpleData>
+		<SimpleData name="bldg_wet">668</SimpleData>
+		<SimpleData name="bldg_c1">91</SimpleData>
+		<SimpleData name="bldg_c2">263</SimpleData>
+		<SimpleData name="bldg_c3">314</SimpleData>
+		<SimpleData name="pop_wet">2227</SimpleData>
+		<SimpleData name="dmg_eq">390.9</SimpleData>
+		<SimpleData name="max_depth">4.36</SimpleData>
+		<SimpleData name="arr_min">162.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.10796,14.27041</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.2">
+	<name>Turakapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5462004302</SimpleData>
+		<SimpleData name="lon">79.10988</SimpleData>
+		<SimpleData name="lat">14.26316</SimpleData>
+		<SimpleData name="bldg_total">999</SimpleData>
+		<SimpleData name="bldg_wet">343</SimpleData>
+		<SimpleData name="bldg_c1">59</SimpleData>
+		<SimpleData name="bldg_c2">98</SimpleData>
+		<SimpleData name="bldg_c3">186</SimpleData>
+		<SimpleData name="pop_wet">1512</SimpleData>
+		<SimpleData name="dmg_eq">213.6</SimpleData>
+		<SimpleData name="max_depth">4.81</SimpleData>
+		<SimpleData name="arr_min">138.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.10988,14.26316</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.3">
+	<name>Yeddulavaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004049</SimpleData>
+		<SimpleData name="lon">79.12842</SimpleData>
+		<SimpleData name="lat">14.27598</SimpleData>
+		<SimpleData name="bldg_total">725</SimpleData>
+		<SimpleData name="bldg_wet">273</SimpleData>
+		<SimpleData name="bldg_c1">14</SimpleData>
+		<SimpleData name="bldg_c2">86</SimpleData>
+		<SimpleData name="bldg_c3">173</SimpleData>
+		<SimpleData name="pop_wet">1377</SimpleData>
+		<SimpleData name="dmg_eq">189.6</SimpleData>
+		<SimpleData name="max_depth">5.54</SimpleData>
+		<SimpleData name="arr_min">171.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.12842,14.27598</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.4">
+	<name>Diguvapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004307</SimpleData>
+		<SimpleData name="lon">79.09268</SimpleData>
+		<SimpleData name="lat">14.26666</SimpleData>
+		<SimpleData name="bldg_total">344</SimpleData>
+		<SimpleData name="bldg_wet">195</SimpleData>
+		<SimpleData name="bldg_c1">31</SimpleData>
+		<SimpleData name="bldg_c2">111</SimpleData>
+		<SimpleData name="bldg_c3">53</SimpleData>
+		<SimpleData name="pop_wet">938</SimpleData>
+		<SimpleData name="dmg_eq">97.9</SimpleData>
+		<SimpleData name="max_depth">3.44</SimpleData>
+		<SimpleData name="arr_min">146.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.09268,14.26666</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.5">
+	<name>Mandapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004296</SimpleData>
+		<SimpleData name="lon">79.07228</SimpleData>
+		<SimpleData name="lat">14.24686</SimpleData>
+		<SimpleData name="bldg_total">287</SimpleData>
+		<SimpleData name="bldg_wet">208</SimpleData>
+		<SimpleData name="bldg_c1">41</SimpleData>
+		<SimpleData name="bldg_c2">110</SimpleData>
+		<SimpleData name="bldg_c3">57</SimpleData>
+		<SimpleData name="pop_wet">578</SimpleData>
+		<SimpleData name="dmg_eq">108.8</SimpleData>
+		<SimpleData name="max_depth">4.66</SimpleData>
+		<SimpleData name="arr_min">110.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.07228,14.24686</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.6">
+	<name>Narayanarajupalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004304</SimpleData>
+		<SimpleData name="lon">79.09926</SimpleData>
+		<SimpleData name="lat">14.27673</SimpleData>
+		<SimpleData name="bldg_total">373</SimpleData>
+		<SimpleData name="bldg_wet">74</SimpleData>
+		<SimpleData name="bldg_c1">18</SimpleData>
+		<SimpleData name="bldg_c2">42</SimpleData>
+		<SimpleData name="bldg_c3">14</SimpleData>
+		<SimpleData name="pop_wet">539</SimpleData>
+		<SimpleData name="dmg_eq">33.4</SimpleData>
+		<SimpleData name="max_depth">2.39</SimpleData>
+		<SimpleData name="arr_min">190.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.09926,14.27673</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.7">
+	<name>Chapalavaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">11302096003</SimpleData>
+		<SimpleData name="lon">79.24821</SimpleData>
+		<SimpleData name="lat">14.35963</SimpleData>
+		<SimpleData name="bldg_total">145</SimpleData>
+		<SimpleData name="bldg_wet">29</SimpleData>
+		<SimpleData name="bldg_c1">11</SimpleData>
+		<SimpleData name="bldg_c2">12</SimpleData>
+		<SimpleData name="bldg_c3">6</SimpleData>
+		<SimpleData name="pop_wet">495</SimpleData>
+		<SimpleData name="dmg_eq">14.9</SimpleData>
+		<SimpleData name="max_depth">5.13</SimpleData>
+		<SimpleData name="arr_min">315.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.24821,14.35963</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.8">
+	<name>Marripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639885</SimpleData>
+		<SimpleData name="lon">79.1581</SimpleData>
+		<SimpleData name="lat">14.26788</SimpleData>
+		<SimpleData name="bldg_total">97</SimpleData>
+		<SimpleData name="bldg_wet">38</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">25</SimpleData>
+		<SimpleData name="bldg_c3">13</SimpleData>
+		<SimpleData name="pop_wet">461</SimpleData>
+		<SimpleData name="dmg_eq">23.6</SimpleData>
+		<SimpleData name="max_depth">3.12</SimpleData>
+		<SimpleData name="arr_min">185.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.1581,14.26788</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.9">
+	<name>Adavivaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004962</SimpleData>
+		<SimpleData name="lon">79.05901</SimpleData>
+		<SimpleData name="lat">14.24706</SimpleData>
+		<SimpleData name="bldg_total">144</SimpleData>
+		<SimpleData name="bldg_wet">81</SimpleData>
+		<SimpleData name="bldg_c1">34</SimpleData>
+		<SimpleData name="bldg_c2">26</SimpleData>
+		<SimpleData name="bldg_c3">21</SimpleData>
+		<SimpleData name="pop_wet">439</SimpleData>
+		<SimpleData name="dmg_eq">33.1</SimpleData>
+		<SimpleData name="max_depth">3.33</SimpleData>
+		<SimpleData name="arr_min">103.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.05901,14.24706</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.10">
+	<name>osm 5462004313</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5462004313</SimpleData>
+		<SimpleData name="lon">79.11013</SimpleData>
+		<SimpleData name="lat">14.2506</SimpleData>
+		<SimpleData name="bldg_total">119</SimpleData>
+		<SimpleData name="bldg_wet">79</SimpleData>
+		<SimpleData name="bldg_c1">17</SimpleData>
+		<SimpleData name="bldg_c2">33</SimpleData>
+		<SimpleData name="bldg_c3">29</SimpleData>
+		<SimpleData name="pop_wet">413</SimpleData>
+		<SimpleData name="dmg_eq">37.1</SimpleData>
+		<SimpleData name="max_depth">4.08</SimpleData>
+		<SimpleData name="arr_min">140.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.11013,14.2506</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.11">
+	<name>Agraharam</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639384</SimpleData>
+		<SimpleData name="lon">79.14337</SimpleData>
+		<SimpleData name="lat">14.26821</SimpleData>
+		<SimpleData name="bldg_total">285</SimpleData>
+		<SimpleData name="bldg_wet">12</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">5</SimpleData>
+		<SimpleData name="bldg_c3">5</SimpleData>
+		<SimpleData name="pop_wet">395</SimpleData>
+		<SimpleData name="dmg_eq">6.7</SimpleData>
+		<SimpleData name="max_depth">4.61</SimpleData>
+		<SimpleData name="arr_min">168.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.14337,14.26821</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.12">
+	<name>Gattumidipalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639898</SimpleData>
+		<SimpleData name="lon">79.2243</SimpleData>
+		<SimpleData name="lat">14.31072</SimpleData>
+		<SimpleData name="bldg_total">147</SimpleData>
+		<SimpleData name="bldg_wet">20</SimpleData>
+		<SimpleData name="bldg_c1">5</SimpleData>
+		<SimpleData name="bldg_c2">13</SimpleData>
+		<SimpleData name="bldg_c3">2</SimpleData>
+		<SimpleData name="pop_wet">390</SimpleData>
+		<SimpleData name="dmg_eq">8.6</SimpleData>
+		<SimpleData name="max_depth">2.08</SimpleData>
+		<SimpleData name="arr_min">277.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.2243,14.31072</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.13">
+	<name>Tallapaka</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639379</SimpleData>
+		<SimpleData name="lon">79.14976</SimpleData>
+		<SimpleData name="lat">14.23546</SimpleData>
+		<SimpleData name="bldg_total">741</SimpleData>
+		<SimpleData name="bldg_wet">15</SimpleData>
+		<SimpleData name="bldg_c1">4</SimpleData>
+		<SimpleData name="bldg_c2">11</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">360</SimpleData>
+		<SimpleData name="dmg_eq">6</SimpleData>
+		<SimpleData name="max_depth">1.33</SimpleData>
+		<SimpleData name="arr_min">263.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.14976,14.23546</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.14">
+	<name>Chukkayapalli</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">11302096002</SimpleData>
+		<SimpleData name="lon">79.23916</SimpleData>
+		<SimpleData name="lat">14.36884</SimpleData>
+		<SimpleData name="bldg_total">92</SimpleData>
+		<SimpleData name="bldg_wet">16</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">5</SimpleData>
+		<SimpleData name="bldg_c3">9</SimpleData>
+		<SimpleData name="pop_wet">326</SimpleData>
+		<SimpleData name="dmg_eq">10.7</SimpleData>
+		<SimpleData name="max_depth">4.24</SimpleData>
+		<SimpleData name="arr_min">334.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.23916,14.36884</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.15">
+	<name>Yellareddipalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639376</SimpleData>
+		<SimpleData name="lon">79.14265</SimpleData>
+		<SimpleData name="lat">14.21891</SimpleData>
+		<SimpleData name="bldg_total">686</SimpleData>
+		<SimpleData name="bldg_wet">54</SimpleData>
+		<SimpleData name="bldg_c1">29</SimpleData>
+		<SimpleData name="bldg_c2">25</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">322</SimpleData>
+		<SimpleData name="dmg_eq">15.7</SimpleData>
+		<SimpleData name="max_depth">1.19</SimpleData>
+		<SimpleData name="arr_min">310.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.14265,14.21891</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.16">
+	<name>Kotichinnayagaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999640057</SimpleData>
+		<SimpleData name="lon">79.25585</SimpleData>
+		<SimpleData name="lat">14.32337</SimpleData>
+		<SimpleData name="bldg_total">185</SimpleData>
+		<SimpleData name="bldg_wet">19</SimpleData>
+		<SimpleData name="bldg_c1">1</SimpleData>
+		<SimpleData name="bldg_c2">14</SimpleData>
+		<SimpleData name="bldg_c3">4</SimpleData>
+		<SimpleData name="pop_wet">311</SimpleData>
+		<SimpleData name="dmg_eq">8.4</SimpleData>
+		<SimpleData name="max_depth">1.84</SimpleData>
+		<SimpleData name="arr_min">295.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.25585,14.32337</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.17">
+	<name>Patur</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004300</SimpleData>
+		<SimpleData name="lon">79.07611</SimpleData>
+		<SimpleData name="lat">14.25852</SimpleData>
+		<SimpleData name="bldg_total">488</SimpleData>
+		<SimpleData name="bldg_wet">245</SimpleData>
+		<SimpleData name="bldg_c1">66</SimpleData>
+		<SimpleData name="bldg_c2">144</SimpleData>
+		<SimpleData name="bldg_c3">35</SimpleData>
+		<SimpleData name="pop_wet">306</SimpleData>
+		<SimpleData name="dmg_eq">105.5</SimpleData>
+		<SimpleData name="max_depth">3.86</SimpleData>
+		<SimpleData name="arr_min">106</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.07611,14.25852</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.18">
+	<name>Jangalapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639900</SimpleData>
+		<SimpleData name="lon">79.21374</SimpleData>
+		<SimpleData name="lat">14.33818</SimpleData>
+		<SimpleData name="bldg_total">16</SimpleData>
+		<SimpleData name="bldg_wet">3</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">2</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">280</SimpleData>
+		<SimpleData name="dmg_eq">1.6</SimpleData>
+		<SimpleData name="max_depth">3.01</SimpleData>
+		<SimpleData name="arr_min">398.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.21374,14.33818</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.19">
+	<name>Eguvapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004297</SimpleData>
+		<SimpleData name="lon">79.07769</SimpleData>
+		<SimpleData name="lat">14.23829</SimpleData>
+		<SimpleData name="bldg_total">374</SimpleData>
+		<SimpleData name="bldg_wet">83</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">35</SimpleData>
+		<SimpleData name="bldg_c3">46</SimpleData>
+		<SimpleData name="pop_wet">275</SimpleData>
+		<SimpleData name="dmg_eq">55.5</SimpleData>
+		<SimpleData name="max_depth">5.3</SimpleData>
+		<SimpleData name="arr_min">130.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.07769,14.23829</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.20">
+	<name>Chintakayalapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639897</SimpleData>
+		<SimpleData name="lon">79.2189</SimpleData>
+		<SimpleData name="lat">14.32881</SimpleData>
+		<SimpleData name="bldg_total">402</SimpleData>
+		<SimpleData name="bldg_wet">75</SimpleData>
+		<SimpleData name="bldg_c1">37</SimpleData>
+		<SimpleData name="bldg_c2">37</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">260</SimpleData>
+		<SimpleData name="dmg_eq">26.9</SimpleData>
+		<SimpleData name="max_depth">1.6</SimpleData>
+		<SimpleData name="arr_min">311.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.2189,14.32881</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.21">
+	<name>Ramachandrapuram</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004964</SimpleData>
+		<SimpleData name="lon">79.04837</SimpleData>
+		<SimpleData name="lat">14.25595</SimpleData>
+		<SimpleData name="bldg_total">54</SimpleData>
+		<SimpleData name="bldg_wet">49</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">8</SimpleData>
+		<SimpleData name="bldg_c3">41</SimpleData>
+		<SimpleData name="pop_wet">245</SimpleData>
+		<SimpleData name="dmg_eq">38.3</SimpleData>
+		<SimpleData name="max_depth">5.44</SimpleData>
+		<SimpleData name="arr_min">105.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.04837,14.25595</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.22">
+	<name>Narayana Nellore</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639902</SimpleData>
+		<SimpleData name="lon">79.19653</SimpleData>
+		<SimpleData name="lat">14.26608</SimpleData>
+		<SimpleData name="bldg_total">397</SimpleData>
+		<SimpleData name="bldg_wet">251</SimpleData>
+		<SimpleData name="bldg_c1">60</SimpleData>
+		<SimpleData name="bldg_c2">152</SimpleData>
+		<SimpleData name="bldg_c3">39</SimpleData>
+		<SimpleData name="pop_wet">207</SimpleData>
+		<SimpleData name="dmg_eq">106.1</SimpleData>
+		<SimpleData name="max_depth">3.42</SimpleData>
+		<SimpleData name="arr_min">247.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.19653,14.26608</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.23">
+	<name>Nagireddipalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5462004306</SimpleData>
+		<SimpleData name="lon">79.10097</SimpleData>
+		<SimpleData name="lat">14.27037</SimpleData>
+		<SimpleData name="bldg_total">855</SimpleData>
+		<SimpleData name="bldg_wet">71</SimpleData>
+		<SimpleData name="bldg_c1">4</SimpleData>
+		<SimpleData name="bldg_c2">30</SimpleData>
+		<SimpleData name="bldg_c3">37</SimpleData>
+		<SimpleData name="pop_wet">202</SimpleData>
+		<SimpleData name="dmg_eq">43.6</SimpleData>
+		<SimpleData name="max_depth">3.29</SimpleData>
+		<SimpleData name="arr_min">164.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.10097,14.27037</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.24">
+	<name>Kummarapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004303</SimpleData>
+		<SimpleData name="lon">79.09744</SimpleData>
+		<SimpleData name="lat">14.25985</SimpleData>
+		<SimpleData name="bldg_total">260</SimpleData>
+		<SimpleData name="bldg_wet">77</SimpleData>
+		<SimpleData name="bldg_c1">31</SimpleData>
+		<SimpleData name="bldg_c2">36</SimpleData>
+		<SimpleData name="bldg_c3">10</SimpleData>
+		<SimpleData name="pop_wet">198</SimpleData>
+		<SimpleData name="dmg_eq">29.3</SimpleData>
+		<SimpleData name="max_depth">2.72</SimpleData>
+		<SimpleData name="arr_min">157.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.09744,14.25985</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.25">
+	<name>Gundlur</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004314</SimpleData>
+		<SimpleData name="lon">79.11399</SimpleData>
+		<SimpleData name="lat">14.25217</SimpleData>
+		<SimpleData name="bldg_total">201</SimpleData>
+		<SimpleData name="bldg_wet">71</SimpleData>
+		<SimpleData name="bldg_c1">10</SimpleData>
+		<SimpleData name="bldg_c2">25</SimpleData>
+		<SimpleData name="bldg_c3">36</SimpleData>
+		<SimpleData name="pop_wet">191</SimpleData>
+		<SimpleData name="dmg_eq">39.7</SimpleData>
+		<SimpleData name="max_depth">4.22</SimpleData>
+		<SimpleData name="arr_min">139</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.11399,14.25217</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.26">
+	<name>Nagiraddipalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999640052</SimpleData>
+		<SimpleData name="lon">79.26849</SimpleData>
+		<SimpleData name="lat">14.30528</SimpleData>
+		<SimpleData name="bldg_total">148</SimpleData>
+		<SimpleData name="bldg_wet">5</SimpleData>
+		<SimpleData name="bldg_c1">1</SimpleData>
+		<SimpleData name="bldg_c2">4</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">191</SimpleData>
+		<SimpleData name="dmg_eq">2.3</SimpleData>
+		<SimpleData name="max_depth">1.34</SimpleData>
+		<SimpleData name="arr_min">352.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.26849,14.30528</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.27">
+	<name>Isukapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639903</SimpleData>
+		<SimpleData name="lon">79.19546</SimpleData>
+		<SimpleData name="lat">14.25956</SimpleData>
+		<SimpleData name="bldg_total">297</SimpleData>
+		<SimpleData name="bldg_wet">9</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">2</SimpleData>
+		<SimpleData name="bldg_c3">5</SimpleData>
+		<SimpleData name="pop_wet">188</SimpleData>
+		<SimpleData name="dmg_eq">5.6</SimpleData>
+		<SimpleData name="max_depth">6.23</SimpleData>
+		<SimpleData name="arr_min">202.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.19546,14.25956</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.28">
+	<name>Pulapathuru</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004966</SimpleData>
+		<SimpleData name="lon">79.04446</SimpleData>
+		<SimpleData name="lat">14.24727</SimpleData>
+		<SimpleData name="bldg_total">454</SimpleData>
+		<SimpleData name="bldg_wet">129</SimpleData>
+		<SimpleData name="bldg_c1">18</SimpleData>
+		<SimpleData name="bldg_c2">50</SimpleData>
+		<SimpleData name="bldg_c3">61</SimpleData>
+		<SimpleData name="pop_wet">183</SimpleData>
+		<SimpleData name="dmg_eq">75.4</SimpleData>
+		<SimpleData name="max_depth">8.09</SimpleData>
+		<SimpleData name="arr_min">78.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.04446,14.24727</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.29">
+	<name>Nutipalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5462004967</SimpleData>
+		<SimpleData name="lon">79.03298</SimpleData>
+		<SimpleData name="lat">14.25785</SimpleData>
+		<SimpleData name="bldg_total">35</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">0</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">177</SimpleData>
+		<SimpleData name="dmg_eq">0.9</SimpleData>
+		<SimpleData name="max_depth">2.89</SimpleData>
+		<SimpleData name="arr_min">129.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.03298,14.25785</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.30">
+	<name>Appayyarajupeta</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639912</SimpleData>
+		<SimpleData name="lon">79.16778</SimpleData>
+		<SimpleData name="lat">14.23042</SimpleData>
+		<SimpleData name="bldg_total">647</SimpleData>
+		<SimpleData name="bldg_wet">2</SimpleData>
+		<SimpleData name="bldg_c1">1</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">177</SimpleData>
+		<SimpleData name="dmg_eq">0.7</SimpleData>
+		<SimpleData name="max_depth">1.29</SimpleData>
+		<SimpleData name="arr_min">257.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.16778,14.23042</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.31">
+	<name>Rachapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004301</SimpleData>
+		<SimpleData name="lon">79.07418</SimpleData>
+		<SimpleData name="lat">14.26267</SimpleData>
+		<SimpleData name="bldg_total">514</SimpleData>
+		<SimpleData name="bldg_wet">118</SimpleData>
+		<SimpleData name="bldg_c1">56</SimpleData>
+		<SimpleData name="bldg_c2">52</SimpleData>
+		<SimpleData name="bldg_c3">10</SimpleData>
+		<SimpleData name="pop_wet">175</SimpleData>
+		<SimpleData name="dmg_eq">40.2</SimpleData>
+		<SimpleData name="max_depth">3.18</SimpleData>
+		<SimpleData name="arr_min">133.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.07418,14.26267</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.32">
+	<name>Kumpinipuram</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639901</SimpleData>
+		<SimpleData name="lon">79.22539</SimpleData>
+		<SimpleData name="lat">14.33606</SimpleData>
+		<SimpleData name="bldg_total">278</SimpleData>
+		<SimpleData name="bldg_wet">5</SimpleData>
+		<SimpleData name="bldg_c1">4</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">167</SimpleData>
+		<SimpleData name="dmg_eq">0.9</SimpleData>
+		<SimpleData name="max_depth">0.68</SimpleData>
+		<SimpleData name="arr_min">353</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.22539,14.33606</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.33">
+	<name>Lebaka</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639888</SimpleData>
+		<SimpleData name="lon">79.19248</SimpleData>
+		<SimpleData name="lat">14.29191</SimpleData>
+		<SimpleData name="bldg_total">498</SimpleData>
+		<SimpleData name="bldg_wet">127</SimpleData>
+		<SimpleData name="bldg_c1">36</SimpleData>
+		<SimpleData name="bldg_c2">61</SimpleData>
+		<SimpleData name="bldg_c3">30</SimpleData>
+		<SimpleData name="pop_wet">155</SimpleData>
+		<SimpleData name="dmg_eq">58.5</SimpleData>
+		<SimpleData name="max_depth">4.27</SimpleData>
+		<SimpleData name="arr_min">247.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.19248,14.29191</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.34">
+	<name>Rachapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5462004308</SimpleData>
+		<SimpleData name="lon">79.10073</SimpleData>
+		<SimpleData name="lat">14.26129</SimpleData>
+		<SimpleData name="bldg_total">137</SimpleData>
+		<SimpleData name="bldg_wet">57</SimpleData>
+		<SimpleData name="bldg_c1">9</SimpleData>
+		<SimpleData name="bldg_c2">32</SimpleData>
+		<SimpleData name="bldg_c3">16</SimpleData>
+		<SimpleData name="pop_wet">138</SimpleData>
+		<SimpleData name="dmg_eq">29.9</SimpleData>
+		<SimpleData name="max_depth">3.59</SimpleData>
+		<SimpleData name="arr_min">161.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.10073,14.26129</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.35">
+	<name>Ganeswaram</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004963</SimpleData>
+		<SimpleData name="lon">79.05753</SimpleData>
+		<SimpleData name="lat">14.26015</SimpleData>
+		<SimpleData name="bldg_total">13</SimpleData>
+		<SimpleData name="bldg_wet">12</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">2</SimpleData>
+		<SimpleData name="bldg_c3">10</SimpleData>
+		<SimpleData name="pop_wet">124</SimpleData>
+		<SimpleData name="dmg_eq">9.6</SimpleData>
+		<SimpleData name="max_depth">5.01</SimpleData>
+		<SimpleData name="arr_min">94.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.05753,14.26015</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.36">
+	<name>Srirampuram</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999640042</SimpleData>
+		<SimpleData name="lon">79.24338</SimpleData>
+		<SimpleData name="lat">14.28231</SimpleData>
+		<SimpleData name="bldg_total">305</SimpleData>
+		<SimpleData name="bldg_wet">7</SimpleData>
+		<SimpleData name="bldg_c1">3</SimpleData>
+		<SimpleData name="bldg_c2">4</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">117</SimpleData>
+		<SimpleData name="dmg_eq">2.5</SimpleData>
+		<SimpleData name="max_depth">1.22</SimpleData>
+		<SimpleData name="arr_min">325.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.24338,14.28231</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.37">
+	<name>Salipeta</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004969</SimpleData>
+		<SimpleData name="lon">79.04385</SimpleData>
+		<SimpleData name="lat">14.25598</SimpleData>
+		<SimpleData name="bldg_total">77</SimpleData>
+		<SimpleData name="bldg_wet">53</SimpleData>
+		<SimpleData name="bldg_c1">4</SimpleData>
+		<SimpleData name="bldg_c2">11</SimpleData>
+		<SimpleData name="bldg_c3">38</SimpleData>
+		<SimpleData name="pop_wet">111</SimpleData>
+		<SimpleData name="dmg_eq">36</SimpleData>
+		<SimpleData name="max_depth">4.67</SimpleData>
+		<SimpleData name="arr_min">92.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.04385,14.25598</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.38">
+	<name>Chintalakonda</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004971</SimpleData>
+		<SimpleData name="lon">79.01941</SimpleData>
+		<SimpleData name="lat">14.26388</SimpleData>
+		<SimpleData name="bldg_total">89</SimpleData>
+		<SimpleData name="bldg_wet">24</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">0</SimpleData>
+		<SimpleData name="bldg_c3">24</SimpleData>
+		<SimpleData name="pop_wet">104</SimpleData>
+		<SimpleData name="dmg_eq">18.8</SimpleData>
+		<SimpleData name="max_depth">6.86</SimpleData>
+		<SimpleData name="arr_min">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.01941,14.26388</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.39">
+	<name>Maratipalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999640036</SimpleData>
+		<SimpleData name="lon">79.20032</SimpleData>
+		<SimpleData name="lat">14.29466</SimpleData>
+		<SimpleData name="bldg_total">97</SimpleData>
+		<SimpleData name="bldg_wet">12</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">8</SimpleData>
+		<SimpleData name="bldg_c3">4</SimpleData>
+		<SimpleData name="pop_wet">104</SimpleData>
+		<SimpleData name="dmg_eq">7.3</SimpleData>
+		<SimpleData name="max_depth">3.48</SimpleData>
+		<SimpleData name="arr_min">232.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.20032,14.29466</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.40">
+	<name>Konapuram</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">13534472130</SimpleData>
+		<SimpleData name="lon">79.19454</SimpleData>
+		<SimpleData name="lat">14.36211</SimpleData>
+		<SimpleData name="bldg_total">62</SimpleData>
+		<SimpleData name="bldg_wet">5</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">2</SimpleData>
+		<SimpleData name="bldg_c3">3</SimpleData>
+		<SimpleData name="pop_wet">103</SimpleData>
+		<SimpleData name="dmg_eq">3.6</SimpleData>
+		<SimpleData name="max_depth">3.79</SimpleData>
+		<SimpleData name="arr_min">394.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.19454,14.36211</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.41">
+	<name>Obili</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999640043</SimpleData>
+		<SimpleData name="lon">79.224</SimpleData>
+		<SimpleData name="lat">14.28369</SimpleData>
+		<SimpleData name="bldg_total">397</SimpleData>
+		<SimpleData name="bldg_wet">34</SimpleData>
+		<SimpleData name="bldg_c1">9</SimpleData>
+		<SimpleData name="bldg_c2">14</SimpleData>
+		<SimpleData name="bldg_c3">11</SimpleData>
+		<SimpleData name="pop_wet">102</SimpleData>
+		<SimpleData name="dmg_eq">15.1</SimpleData>
+		<SimpleData name="max_depth">2.85</SimpleData>
+		<SimpleData name="arr_min">261.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.224,14.28369</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.42">
+	<name>Togurupeta</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004968</SimpleData>
+		<SimpleData name="lon">79.04326</SimpleData>
+		<SimpleData name="lat">14.25393</SimpleData>
+		<SimpleData name="bldg_total">58</SimpleData>
+		<SimpleData name="bldg_wet">49</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">12</SimpleData>
+		<SimpleData name="bldg_c3">37</SimpleData>
+		<SimpleData name="pop_wet">102</SimpleData>
+		<SimpleData name="dmg_eq">34.2</SimpleData>
+		<SimpleData name="max_depth">4</SimpleData>
+		<SimpleData name="arr_min">92.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.04326,14.25393</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.43">
+	<name>Lebaka Mangamambapuram</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639887</SimpleData>
+		<SimpleData name="lon">79.18415</SimpleData>
+		<SimpleData name="lat">14.28128</SimpleData>
+		<SimpleData name="bldg_total">135</SimpleData>
+		<SimpleData name="bldg_wet">10</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">2</SimpleData>
+		<SimpleData name="bldg_c3">8</SimpleData>
+		<SimpleData name="pop_wet">100</SimpleData>
+		<SimpleData name="dmg_eq">6.6</SimpleData>
+		<SimpleData name="max_depth">3.09</SimpleData>
+		<SimpleData name="arr_min">234.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.18415,14.28128</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.44">
+	<name>Rachapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999640037</SimpleData>
+		<SimpleData name="lon">79.2029</SimpleData>
+		<SimpleData name="lat">14.2966</SimpleData>
+		<SimpleData name="bldg_total">107</SimpleData>
+		<SimpleData name="bldg_wet">70</SimpleData>
+		<SimpleData name="bldg_c1">4</SimpleData>
+		<SimpleData name="bldg_c2">17</SimpleData>
+		<SimpleData name="bldg_c3">49</SimpleData>
+		<SimpleData name="pop_wet">93</SimpleData>
+		<SimpleData name="dmg_eq">44.7</SimpleData>
+		<SimpleData name="max_depth">3.56</SimpleData>
+		<SimpleData name="arr_min">328.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.2029,14.2966</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.45">
+	<name>Nallathimmayapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639889</SimpleData>
+		<SimpleData name="lon">79.17656</SimpleData>
+		<SimpleData name="lat">14.28126</SimpleData>
+		<SimpleData name="bldg_total">747</SimpleData>
+		<SimpleData name="bldg_wet">4</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">2</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">92</SimpleData>
+		<SimpleData name="dmg_eq">1.3</SimpleData>
+		<SimpleData name="max_depth">1.19</SimpleData>
+		<SimpleData name="arr_min">224.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.17656,14.28126</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.46">
+	<name>Kottapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639905</SimpleData>
+		<SimpleData name="lon">79.18473</SimpleData>
+		<SimpleData name="lat">14.24701</SimpleData>
+		<SimpleData name="bldg_total">323</SimpleData>
+		<SimpleData name="bldg_wet">5</SimpleData>
+		<SimpleData name="bldg_c1">3</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">88</SimpleData>
+		<SimpleData name="dmg_eq">1.6</SimpleData>
+		<SimpleData name="max_depth">2.11</SimpleData>
+		<SimpleData name="arr_min">274.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.18473,14.24701</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.47">
+	<name>Choppavaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5462004310</SimpleData>
+		<SimpleData name="lon">79.11527</SimpleData>
+		<SimpleData name="lat">14.24458</SimpleData>
+		<SimpleData name="bldg_total">98</SimpleData>
+		<SimpleData name="bldg_wet">46</SimpleData>
+		<SimpleData name="bldg_c1">12</SimpleData>
+		<SimpleData name="bldg_c2">22</SimpleData>
+		<SimpleData name="bldg_c3">12</SimpleData>
+		<SimpleData name="pop_wet">87</SimpleData>
+		<SimpleData name="dmg_eq">22.7</SimpleData>
+		<SimpleData name="max_depth">3.26</SimpleData>
+		<SimpleData name="arr_min">166.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.11527,14.24458</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.48">
+	<name>osm 5462004315</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004315</SimpleData>
+		<SimpleData name="lon">79.10747</SimpleData>
+		<SimpleData name="lat">14.24834</SimpleData>
+		<SimpleData name="bldg_total">46</SimpleData>
+		<SimpleData name="bldg_wet">29</SimpleData>
+		<SimpleData name="bldg_c1">16</SimpleData>
+		<SimpleData name="bldg_c2">7</SimpleData>
+		<SimpleData name="bldg_c3">6</SimpleData>
+		<SimpleData name="pop_wet">84</SimpleData>
+		<SimpleData name="dmg_eq">11.1</SimpleData>
+		<SimpleData name="max_depth">2.92</SimpleData>
+		<SimpleData name="arr_min">139.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.10747,14.24834</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.49">
+	<name>Kammapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639910</SimpleData>
+		<SimpleData name="lon">79.16799</SimpleData>
+		<SimpleData name="lat">14.23702</SimpleData>
+		<SimpleData name="bldg_total">490</SimpleData>
+		<SimpleData name="bldg_wet">2</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">2</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">83</SimpleData>
+		<SimpleData name="dmg_eq">1</SimpleData>
+		<SimpleData name="max_depth">1</SimpleData>
+		<SimpleData name="arr_min">226.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.16799,14.23702</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.50">
+	<name>Venkata Rajampeta</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">13534472141</SimpleData>
+		<SimpleData name="lon">79.18836</SimpleData>
+		<SimpleData name="lat">14.36909</SimpleData>
+		<SimpleData name="bldg_total">93</SimpleData>
+		<SimpleData name="bldg_wet">7</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">3</SimpleData>
+		<SimpleData name="bldg_c3">4</SimpleData>
+		<SimpleData name="pop_wet">81</SimpleData>
+		<SimpleData name="dmg_eq">4.9</SimpleData>
+		<SimpleData name="max_depth">3.62</SimpleData>
+		<SimpleData name="arr_min">401.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.18836,14.36909</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.51">
+	<name>Kummarapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004317</SimpleData>
+		<SimpleData name="lon">79.10526</SimpleData>
+		<SimpleData name="lat">14.24673</SimpleData>
+		<SimpleData name="bldg_total">74</SimpleData>
+		<SimpleData name="bldg_wet">26</SimpleData>
+		<SimpleData name="bldg_c1">6</SimpleData>
+		<SimpleData name="bldg_c2">20</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">78</SimpleData>
+		<SimpleData name="dmg_eq">11.5</SimpleData>
+		<SimpleData name="max_depth">1.46</SimpleData>
+		<SimpleData name="arr_min">161</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.10526,14.24673</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.52">
+	<name>Diguvapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999640047</SimpleData>
+		<SimpleData name="lon">79.25002</SimpleData>
+		<SimpleData name="lat">14.31109</SimpleData>
+		<SimpleData name="bldg_total">181</SimpleData>
+		<SimpleData name="bldg_wet">13</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">10</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">74</SimpleData>
+		<SimpleData name="dmg_eq">5.6</SimpleData>
+		<SimpleData name="max_depth">1.66</SimpleData>
+		<SimpleData name="arr_min">286.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.25002,14.31109</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.53">
+	<name>Annagaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5462004311</SimpleData>
+		<SimpleData name="lon">79.1113</SimpleData>
+		<SimpleData name="lat">14.24687</SimpleData>
+		<SimpleData name="bldg_total">30</SimpleData>
+		<SimpleData name="bldg_wet">27</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">11</SimpleData>
+		<SimpleData name="bldg_c3">16</SimpleData>
+		<SimpleData name="pop_wet">73</SimpleData>
+		<SimpleData name="dmg_eq">17.5</SimpleData>
+		<SimpleData name="max_depth">2.79</SimpleData>
+		<SimpleData name="arr_min">145.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.1113,14.24687</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.54">
+	<name>Idugapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639892</SimpleData>
+		<SimpleData name="lon">79.187</SimpleData>
+		<SimpleData name="lat">14.30921</SimpleData>
+		<SimpleData name="bldg_total">157</SimpleData>
+		<SimpleData name="bldg_wet">11</SimpleData>
+		<SimpleData name="bldg_c1">3</SimpleData>
+		<SimpleData name="bldg_c2">4</SimpleData>
+		<SimpleData name="bldg_c3">4</SimpleData>
+		<SimpleData name="pop_wet">71</SimpleData>
+		<SimpleData name="dmg_eq">5.8</SimpleData>
+		<SimpleData name="max_depth">4.85</SimpleData>
+		<SimpleData name="arr_min">278.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.187,14.30921</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.55">
+	<name>Seshugaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999640034</SimpleData>
+		<SimpleData name="lon">79.21302</SimpleData>
+		<SimpleData name="lat">14.29991</SimpleData>
+		<SimpleData name="bldg_total">45</SimpleData>
+		<SimpleData name="bldg_wet">13</SimpleData>
+		<SimpleData name="bldg_c1">5</SimpleData>
+		<SimpleData name="bldg_c2">8</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">70</SimpleData>
+		<SimpleData name="dmg_eq">4.8</SimpleData>
+		<SimpleData name="max_depth">1.01</SimpleData>
+		<SimpleData name="arr_min">397.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.21302,14.29991</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.56">
+	<name>Kummarapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004316</SimpleData>
+		<SimpleData name="lon">79.11235</SimpleData>
+		<SimpleData name="lat">14.24309</SimpleData>
+		<SimpleData name="bldg_total">53</SimpleData>
+		<SimpleData name="bldg_wet">35</SimpleData>
+		<SimpleData name="bldg_c1">3</SimpleData>
+		<SimpleData name="bldg_c2">23</SimpleData>
+		<SimpleData name="bldg_c3">9</SimpleData>
+		<SimpleData name="pop_wet">68</SimpleData>
+		<SimpleData name="dmg_eq">17.1</SimpleData>
+		<SimpleData name="max_depth">2.66</SimpleData>
+		<SimpleData name="arr_min">158.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.11235,14.24309</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.57">
+	<name>osm 12362038879</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">12362038879</SimpleData>
+		<SimpleData name="lon">78.99995</SimpleData>
+		<SimpleData name="lat">14.24617</SimpleData>
+		<SimpleData name="bldg_total">72</SimpleData>
+		<SimpleData name="bldg_wet">5</SimpleData>
+		<SimpleData name="bldg_c1">1</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">3</SimpleData>
+		<SimpleData name="pop_wet">65</SimpleData>
+		<SimpleData name="dmg_eq">3.3</SimpleData>
+		<SimpleData name="max_depth">8.78</SimpleData>
+		<SimpleData name="arr_min">75.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>78.99995,14.24617</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.58">
+	<name>Ellamrajupalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639890</SimpleData>
+		<SimpleData name="lon">79.16562</SimpleData>
+		<SimpleData name="lat">14.27348</SimpleData>
+		<SimpleData name="bldg_total">82</SimpleData>
+		<SimpleData name="bldg_wet">2</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">64</SimpleData>
+		<SimpleData name="dmg_eq">1.1</SimpleData>
+		<SimpleData name="max_depth">1.57</SimpleData>
+		<SimpleData name="arr_min">214.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.16562,14.27348</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.59">
+	<name>Jattivaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999640039</SimpleData>
+		<SimpleData name="lon">79.20881</SimpleData>
+		<SimpleData name="lat">14.27197</SimpleData>
+		<SimpleData name="bldg_total">90</SimpleData>
+		<SimpleData name="bldg_wet">2</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">0</SimpleData>
+		<SimpleData name="bldg_c3">2</SimpleData>
+		<SimpleData name="pop_wet">54</SimpleData>
+		<SimpleData name="dmg_eq">1.6</SimpleData>
+		<SimpleData name="max_depth">2.71</SimpleData>
+		<SimpleData name="arr_min">229.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.20881,14.27197</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.60">
+	<name>Agraharam</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639362</SimpleData>
+		<SimpleData name="lon">79.08353</SimpleData>
+		<SimpleData name="lat">14.24478</SimpleData>
+		<SimpleData name="bldg_total">71</SimpleData>
+		<SimpleData name="bldg_wet">17</SimpleData>
+		<SimpleData name="bldg_c1">7</SimpleData>
+		<SimpleData name="bldg_c2">5</SimpleData>
+		<SimpleData name="bldg_c3">5</SimpleData>
+		<SimpleData name="pop_wet">53</SimpleData>
+		<SimpleData name="dmg_eq">7.9</SimpleData>
+		<SimpleData name="max_depth">3.91</SimpleData>
+		<SimpleData name="arr_min">119.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.08353,14.24478</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.61">
+	<name>osm 5462004312</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004312</SimpleData>
+		<SimpleData name="lon">79.12017</SimpleData>
+		<SimpleData name="lat">14.24074</SimpleData>
+		<SimpleData name="bldg_total">253</SimpleData>
+		<SimpleData name="bldg_wet">14</SimpleData>
+		<SimpleData name="bldg_c1">3</SimpleData>
+		<SimpleData name="bldg_c2">4</SimpleData>
+		<SimpleData name="bldg_c3">7</SimpleData>
+		<SimpleData name="pop_wet">50</SimpleData>
+		<SimpleData name="dmg_eq">8</SimpleData>
+		<SimpleData name="max_depth">5.16</SimpleData>
+		<SimpleData name="arr_min">168.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.12017,14.24074</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.62">
+	<name>Attirala</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639909</SimpleData>
+		<SimpleData name="lon">79.16832</SimpleData>
+		<SimpleData name="lat">14.24526</SimpleData>
+		<SimpleData name="bldg_total">105</SimpleData>
+		<SimpleData name="bldg_wet">10</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">2</SimpleData>
+		<SimpleData name="bldg_c3">6</SimpleData>
+		<SimpleData name="pop_wet">48</SimpleData>
+		<SimpleData name="dmg_eq">6.4</SimpleData>
+		<SimpleData name="max_depth">3.72</SimpleData>
+		<SimpleData name="arr_min">194.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.16832,14.24526</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.63">
+	<name>Rachapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639383</SimpleData>
+		<SimpleData name="lon">79.14902</SimpleData>
+		<SimpleData name="lat">14.27209</SimpleData>
+		<SimpleData name="bldg_total">231</SimpleData>
+		<SimpleData name="bldg_wet">22</SimpleData>
+		<SimpleData name="bldg_c1">5</SimpleData>
+		<SimpleData name="bldg_c2">10</SimpleData>
+		<SimpleData name="bldg_c3">7</SimpleData>
+		<SimpleData name="pop_wet">47</SimpleData>
+		<SimpleData name="dmg_eq">10.7</SimpleData>
+		<SimpleData name="max_depth">2.88</SimpleData>
+		<SimpleData name="arr_min">177.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.14902,14.27209</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.64">
+	<name>Gollapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004305</SimpleData>
+		<SimpleData name="lon">79.1041</SimpleData>
+		<SimpleData name="lat">14.26178</SimpleData>
+		<SimpleData name="bldg_total">95</SimpleData>
+		<SimpleData name="bldg_wet">15</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">3</SimpleData>
+		<SimpleData name="bldg_c3">12</SimpleData>
+		<SimpleData name="pop_wet">46</SimpleData>
+		<SimpleData name="dmg_eq">11</SimpleData>
+		<SimpleData name="max_depth">4.62</SimpleData>
+		<SimpleData name="arr_min">141.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.1041,14.26178</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.65">
+	<name>Attigaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999640045</SimpleData>
+		<SimpleData name="lon">79.2317</SimpleData>
+		<SimpleData name="lat">14.2781</SimpleData>
+		<SimpleData name="bldg_total">334</SimpleData>
+		<SimpleData name="bldg_wet">5</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">5</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">46</SimpleData>
+		<SimpleData name="dmg_eq">2.2</SimpleData>
+		<SimpleData name="max_depth">1.08</SimpleData>
+		<SimpleData name="arr_min">304.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.2317,14.2781</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.66">
+	<name>Baireddipalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004299</SimpleData>
+		<SimpleData name="lon">79.08513</SimpleData>
+		<SimpleData name="lat">14.22729</SimpleData>
+		<SimpleData name="bldg_total">117</SimpleData>
+		<SimpleData name="bldg_wet">45</SimpleData>
+		<SimpleData name="bldg_c1">3</SimpleData>
+		<SimpleData name="bldg_c2">24</SimpleData>
+		<SimpleData name="bldg_c3">18</SimpleData>
+		<SimpleData name="pop_wet">44</SimpleData>
+		<SimpleData name="dmg_eq">25.8</SimpleData>
+		<SimpleData name="max_depth">2.72</SimpleData>
+		<SimpleData name="arr_min">165</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.08513,14.22729</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.67">
+	<name>Mannur</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5763073176</SimpleData>
+		<SimpleData name="lon">79.14946</SimpleData>
+		<SimpleData name="lat">14.20468</SimpleData>
+		<SimpleData name="bldg_total">2127</SimpleData>
+		<SimpleData name="bldg_wet">3</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">40</SimpleData>
+		<SimpleData name="dmg_eq">0.8</SimpleData>
+		<SimpleData name="max_depth">0.53</SimpleData>
+		<SimpleData name="arr_min">378.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.14946,14.20468</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.68">
+	<name>Penagaluru</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999640050</SimpleData>
+		<SimpleData name="lon">79.26333</SimpleData>
+		<SimpleData name="lat">14.30453</SimpleData>
+		<SimpleData name="bldg_total">1091</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">40</SimpleData>
+		<SimpleData name="dmg_eq">0.5</SimpleData>
+		<SimpleData name="max_depth">0.98</SimpleData>
+		<SimpleData name="arr_min">346.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.26333,14.30453</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.69">
+	<name>Adapur</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639886</SimpleData>
+		<SimpleData name="lon">79.14554</SimpleData>
+		<SimpleData name="lat">14.27053</SimpleData>
+		<SimpleData name="bldg_total">117</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">0</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">27</SimpleData>
+		<SimpleData name="dmg_eq">0.7</SimpleData>
+		<SimpleData name="max_depth">1.74</SimpleData>
+		<SimpleData name="arr_min">181.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.14554,14.27053</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.70">
+	<name>Prakash Colony</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639377</SimpleData>
+		<SimpleData name="lon">79.12115</SimpleData>
+		<SimpleData name="lat">14.22905</SimpleData>
+		<SimpleData name="bldg_total">124</SimpleData>
+		<SimpleData name="bldg_wet">7</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">6</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">27</SimpleData>
+		<SimpleData name="dmg_eq">3.9</SimpleData>
+		<SimpleData name="max_depth">1.74</SimpleData>
+		<SimpleData name="arr_min">200</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.12115,14.22905</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.71">
+	<name>Mandaramu</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639904</SimpleData>
+		<SimpleData name="lon">79.17907</SimpleData>
+		<SimpleData name="lat">14.24545</SimpleData>
+		<SimpleData name="bldg_total">169</SimpleData>
+		<SimpleData name="bldg_wet">14</SimpleData>
+		<SimpleData name="bldg_c1">9</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">4</SimpleData>
+		<SimpleData name="pop_wet">18</SimpleData>
+		<SimpleData name="dmg_eq">5.8</SimpleData>
+		<SimpleData name="max_depth">2.42</SimpleData>
+		<SimpleData name="arr_min">234.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.17907,14.24545</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.72">
+	<name>Malavada</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639364</SimpleData>
+		<SimpleData name="lon">79.08181</SimpleData>
+		<SimpleData name="lat">14.22932</SimpleData>
+		<SimpleData name="bldg_total">126</SimpleData>
+		<SimpleData name="bldg_wet">14</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">7</SimpleData>
+		<SimpleData name="bldg_c3">5</SimpleData>
+		<SimpleData name="pop_wet">17</SimpleData>
+		<SimpleData name="dmg_eq">7.3</SimpleData>
+		<SimpleData name="max_depth">2.12</SimpleData>
+		<SimpleData name="arr_min">166.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.08181,14.22932</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.73">
+	<name>Agraharam</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999640035</SimpleData>
+		<SimpleData name="lon">79.21077</SimpleData>
+		<SimpleData name="lat">14.30089</SimpleData>
+		<SimpleData name="bldg_total">146</SimpleData>
+		<SimpleData name="bldg_wet">4</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">3</SimpleData>
+		<SimpleData name="pop_wet">13</SimpleData>
+		<SimpleData name="dmg_eq">2.9</SimpleData>
+		<SimpleData name="max_depth">3.97</SimpleData>
+		<SimpleData name="arr_min">268.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.21077,14.30089</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.74">
+	<name>Komarunipalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639896</SimpleData>
+		<SimpleData name="lon">79.2299</SimpleData>
+		<SimpleData name="lat">14.32423</SimpleData>
+		<SimpleData name="bldg_total">35</SimpleData>
+		<SimpleData name="bldg_wet">3</SimpleData>
+		<SimpleData name="bldg_c1">1</SimpleData>
+		<SimpleData name="bldg_c2">2</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">11</SimpleData>
+		<SimpleData name="dmg_eq">1.2</SimpleData>
+		<SimpleData name="max_depth">1.09</SimpleData>
+		<SimpleData name="arr_min">295.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.2299,14.32423</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.75">
+	<name>Konarajupalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5462004309</SimpleData>
+		<SimpleData name="lon">79.1132</SimpleData>
+		<SimpleData name="lat">14.23732</SimpleData>
+		<SimpleData name="bldg_total">121</SimpleData>
+		<SimpleData name="bldg_wet">2</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">0</SimpleData>
+		<SimpleData name="bldg_c3">2</SimpleData>
+		<SimpleData name="pop_wet">10</SimpleData>
+		<SimpleData name="dmg_eq">1.6</SimpleData>
+		<SimpleData name="max_depth">3.7</SimpleData>
+		<SimpleData name="arr_min">183.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.1132,14.23732</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.76">
+	<name>Singareddipalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999640049</SimpleData>
+		<SimpleData name="lon">79.25337</SimpleData>
+		<SimpleData name="lat">14.29089</SimpleData>
+		<SimpleData name="bldg_total">85</SimpleData>
+		<SimpleData name="bldg_wet">2</SimpleData>
+		<SimpleData name="bldg_c1">1</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">10</SimpleData>
+		<SimpleData name="dmg_eq">0.7</SimpleData>
+		<SimpleData name="max_depth">0.89</SimpleData>
+		<SimpleData name="arr_min">371.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.25337,14.29089</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.77">
+	<name>Chennayagaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639891</SimpleData>
+		<SimpleData name="lon">79.17973</SimpleData>
+		<SimpleData name="lat">14.30487</SimpleData>
+		<SimpleData name="bldg_total">504</SimpleData>
+		<SimpleData name="bldg_wet">10</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">7</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">9</SimpleData>
+		<SimpleData name="dmg_eq">4.1</SimpleData>
+		<SimpleData name="max_depth">2.49</SimpleData>
+		<SimpleData name="arr_min">265</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.17973,14.30487</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.78">
+	<name>Tanguturu</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">11285587627</SimpleData>
+		<SimpleData name="lon">79.22207</SimpleData>
+		<SimpleData name="lat">14.29529</SimpleData>
+		<SimpleData name="bldg_total">537</SimpleData>
+		<SimpleData name="bldg_wet">5</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">4</SimpleData>
+		<SimpleData name="pop_wet">7</SimpleData>
+		<SimpleData name="dmg_eq">3.6</SimpleData>
+		<SimpleData name="max_depth">3.33</SimpleData>
+		<SimpleData name="arr_min">250.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.22207,14.29529</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.79">
+	<name>Diguva Rachavaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999640038</SimpleData>
+		<SimpleData name="lon">79.21675</SimpleData>
+		<SimpleData name="lat">14.27678</SimpleData>
+		<SimpleData name="bldg_total">69</SimpleData>
+		<SimpleData name="bldg_wet">2</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">2</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">6</SimpleData>
+		<SimpleData name="dmg_eq">0.8</SimpleData>
+		<SimpleData name="max_depth">0.74</SimpleData>
+		<SimpleData name="arr_min">308</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.21675,14.27678</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.80">
+	<name>Pothapi</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639893</SimpleData>
+		<SimpleData name="lon">79.22891</SimpleData>
+		<SimpleData name="lat">14.34884</SimpleData>
+		<SimpleData name="bldg_total">692</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">6</SimpleData>
+		<SimpleData name="dmg_eq">0.6</SimpleData>
+		<SimpleData name="max_depth">1.3</SimpleData>
+		<SimpleData name="arr_min">438.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.22891,14.34884</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.81">
+	<name>Agraharam</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639363</SimpleData>
+		<SimpleData name="lon">79.09321</SimpleData>
+		<SimpleData name="lat">14.24493</SimpleData>
+		<SimpleData name="bldg_total">206</SimpleData>
+		<SimpleData name="bldg_wet">3</SimpleData>
+		<SimpleData name="bldg_c1">1</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">5</SimpleData>
+		<SimpleData name="dmg_eq">1.5</SimpleData>
+		<SimpleData name="max_depth">2.55</SimpleData>
+		<SimpleData name="arr_min">156.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.09321,14.24493</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.82">
+	<name>Homadrivaripalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639381</SimpleData>
+		<SimpleData name="lon">79.14541</SimpleData>
+		<SimpleData name="lat">14.24787</SimpleData>
+		<SimpleData name="bldg_total">149</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">4</SimpleData>
+		<SimpleData name="dmg_eq">0.4</SimpleData>
+		<SimpleData name="max_depth">0.6</SimpleData>
+		<SimpleData name="arr_min">331.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.14541,14.24787</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.83">
+	<name>Yerrapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639375</SimpleData>
+		<SimpleData name="lon">79.12911</SimpleData>
+		<SimpleData name="lat">14.22817</SimpleData>
+		<SimpleData name="bldg_total">755</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">1</SimpleData>
+		<SimpleData name="bldg_c2">0</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">4</SimpleData>
+		<SimpleData name="dmg_eq">0.2</SimpleData>
+		<SimpleData name="max_depth">0.24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.12911,14.22817</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.84">
+	<name>Agraharam</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639372</SimpleData>
+		<SimpleData name="lon">79.14323</SimpleData>
+		<SimpleData name="lat">14.23431</SimpleData>
+		<SimpleData name="bldg_total">1081</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">4</SimpleData>
+		<SimpleData name="dmg_eq">0.6</SimpleData>
+		<SimpleData name="max_depth">1.4</SimpleData>
+		<SimpleData name="arr_min">344.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.14323,14.23431</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.85">
+	<name>Siriyavaram</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999640060</SimpleData>
+		<SimpleData name="lon">79.27148</SimpleData>
+		<SimpleData name="lat">14.33573</SimpleData>
+		<SimpleData name="bldg_total">322</SimpleData>
+		<SimpleData name="bldg_wet">6</SimpleData>
+		<SimpleData name="bldg_c1">6</SimpleData>
+		<SimpleData name="bldg_c2">0</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">3</SimpleData>
+		<SimpleData name="dmg_eq">1.4</SimpleData>
+		<SimpleData name="max_depth">0.37</SimpleData>
+		<SimpleData name="arr_min">474</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.27148,14.33573</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.86">
+	<name>Singanamala</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999640029</SimpleData>
+		<SimpleData name="lon">79.25894</SimpleData>
+		<SimpleData name="lat">14.28113</SimpleData>
+		<SimpleData name="bldg_total">297</SimpleData>
+		<SimpleData name="bldg_wet">5</SimpleData>
+		<SimpleData name="bldg_c1">2</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">2</SimpleData>
+		<SimpleData name="pop_wet">3</SimpleData>
+		<SimpleData name="dmg_eq">1.9</SimpleData>
+		<SimpleData name="max_depth">1.56</SimpleData>
+		<SimpleData name="arr_min">407.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.25894,14.28113</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.87">
+	<name>Pallampadu</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999640058</SimpleData>
+		<SimpleData name="lon">79.24759</SimpleData>
+		<SimpleData name="lat">14.33162</SimpleData>
+		<SimpleData name="bldg_total">143</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">2</SimpleData>
+		<SimpleData name="dmg_eq">0.5</SimpleData>
+		<SimpleData name="max_depth">1.07</SimpleData>
+		<SimpleData name="arr_min">300.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.24759,14.33162</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.88">
+	<name>Siddavaram</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999640046</SimpleData>
+		<SimpleData name="lon">79.24412</SimpleData>
+		<SimpleData name="lat">14.30076</SimpleData>
+		<SimpleData name="bldg_total">335</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">1</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">1</SimpleData>
+		<SimpleData name="dmg_eq">0.5</SimpleData>
+		<SimpleData name="max_depth">0.9</SimpleData>
+		<SimpleData name="arr_min">306.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.24412,14.30076</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.89">
+	<name>Nookinenipalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999639899</SimpleData>
+		<SimpleData name="lon">79.22791</SimpleData>
+		<SimpleData name="lat">14.33252</SimpleData>
+		<SimpleData name="bldg_total">201</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">0</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">1</SimpleData>
+		<SimpleData name="dmg_eq">0.7</SimpleData>
+		<SimpleData name="max_depth">1.87</SimpleData>
+		<SimpleData name="arr_min">295.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.22791,14.33252</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.90">
+	<name>Kunda Nellore</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">hamlet</SimpleData>
+		<SimpleData name="osm_id">5999639895</SimpleData>
+		<SimpleData name="lon">79.22894</SimpleData>
+		<SimpleData name="lat">14.32604</SimpleData>
+		<SimpleData name="bldg_total">137</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">1</SimpleData>
+		<SimpleData name="bldg_c2">0</SimpleData>
+		<SimpleData name="bldg_c3">0</SimpleData>
+		<SimpleData name="pop_wet">1</SimpleData>
+		<SimpleData name="dmg_eq">0.2</SimpleData>
+		<SimpleData name="max_depth">0.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.22894,14.32604</coordinates></Point>
+  </Placemark>
+  <Placemark id="damage_d3d_villages.91">
+	<name>Tiranapalle</name>
+	<ExtendedData><SchemaData schemaUrl="#damage_d3d_villages">
+		<SimpleData name="place">village</SimpleData>
+		<SimpleData name="osm_id">5999640061</SimpleData>
+		<SimpleData name="lon">79.27875</SimpleData>
+		<SimpleData name="lat">14.32757</SimpleData>
+		<SimpleData name="bldg_total">489</SimpleData>
+		<SimpleData name="bldg_wet">1</SimpleData>
+		<SimpleData name="bldg_c1">0</SimpleData>
+		<SimpleData name="bldg_c2">0</SimpleData>
+		<SimpleData name="bldg_c3">1</SimpleData>
+		<SimpleData name="pop_wet">0</SimpleData>
+		<SimpleData name="dmg_eq">0.7</SimpleData>
+		<SimpleData name="max_depth">2.14</SimpleData>
+		<SimpleData name="arr_min">459.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.27875,14.32757</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

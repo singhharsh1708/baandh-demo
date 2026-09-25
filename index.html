@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BaandhRakshak Dam Break</title>
+<meta name="description" content="Dam-break flood maps for the Annamayya dam, Cheyyeru river, Andhra Pradesh, from Delft3D FM and SPH on the same scenario. Smart India Hackathon 2026, SIH26161.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 30 30%22%3E%3Crect x=%221%22 y=%221%22 width=%2228%22 height=%2228%22 rx=%228%22 fill=%22%2316243a%22/%3E%3Cpath d=%22M5 9h8v14H5z%22 fill=%22%23b4bcc8%22/%3E%3Cpath d=%22M14 18c3-3 5 3 11 0%22 fill=%22none%22 stroke=%22%2386b6ef%22 stroke-width=%222.4%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+        <rect x="1" y="1" width="28" height="28" rx="8" fill="#16243a" stroke="#2c4a73"/>
+        <path d="M5 8h7l1 15H5z" fill="#b4bcc8"/>
+        <path d="M14 17c3-3 6 3 11 0" fill="none" stroke="#86b6ef" stroke-width="2" stroke-linecap="round"/>
+        <path d="M14 21.5c3-3 6 3 11 0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <div class="brand-text">
+        <h1>BaandhRakshak</h1>
+        <div class="sub">Dam-break flood maps, Annamayya dam on the Cheyyeru, Andhra Pradesh (prototype)</div>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <span class="chip">SIH26161 &middot; NTRO</span>
+    <span class="chip warn" title="30 m Copernicus DEM, Froehlich regression breach, no satellite flood extent exists for this event">Prototype, 30 m DEM</span>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Views">
+    <button class="tab" role="tab" data-panel="scenario">Scenario</button>
+    <button class="tab" role="tab" data-panel="flood">Flood map</button>
+    <button class="tab" role="tab" data-panel="compare">SPH vs Delft3D</button>
+    <button class="tab" role="tab" data-panel="sph">Near-field SPH</button>
+    <button class="tab" role="tab" data-panel="damage">Loss and damage</button>
+    <button class="tab" role="tab" data-panel="satellite">Satellite</button>
+    <button class="tab" role="tab" data-panel="downloads">Downloads</button>
+  </nav>
+
+  <aside class="side">
+    <section class="panel" data-panel="scenario" hidden>
+      <h2>Annamayya dam breach, 19 Nov 2021</h2>
+      <p class="lede" id="sc-lede"></p>
+      <ol class="pipe" id="sc-pipe"></ol>
+      <div class="kpis" id="sc-kpis"></div>
+      <h3>Outflow from the dam</h3>
+      <div class="chart" id="hy-chart"><div class="chart-tip" id="hy-tip"></div></div>
+      <p class="note" id="hy-note"></p>
+      <h3>Peak outflow, by method</h3>
+      <table class="data" id="sc-peaks"></table>
+      <h3>Dam card</h3>
+      <table class="data" id="sc-dam"></table>
+      <h3>Run it for any dam</h3>
+      <p class="note">Change the inputs and the command below builds the scenario for another dam: DEM clip, reservoir storage curve, breach, outflow hydrograph. With the Annamayya values it is the exact command behind this run. The two numbers under the form are a quick Froehlich (2008) estimate in the browser; "water at breach" feeds only that estimate, since the run measures it from the DEM.</p>
+      <div class="form" id="sc-form"></div>
+      <div class="kpis" id="sc-quick"></div>
+      <pre class="cmd" id="sc-cmd"></pre>
+      <div class="btn-row"><button class="btn" id="sc-copy">Copy command</button><button class="btn" id="sc-reset">Reset to Annamayya</button></div>
+      <details class="limits">
+        <summary>Scenario caveats (<span id="sc-ncav"></span>)</summary>
+        <ul class="caveats" id="sc-caveats"></ul>
+      </details>
+      <h3>Sources</h3>
+      <ul class="caveats src-list" id="sc-sources"></ul>
+    </section>
+
+    <section class="panel" data-panel="flood" hidden>
+      <h2>Flood depth and arrival time</h2>
+      <p class="lede">Both engines route the same breach hydrograph over the same 30 m Copernicus DEM, down the Cheyyeru valley towards the Somasila backwater. Pick an engine and a layer below the map.</p>
+      <div id="fl-engines"></div>
+      <h3>Check against the villages reported flooded</h3>
+      <div id="fl-val"></div>
+      <h3>Depth at each village point</h3>
+      <table class="data" id="fl-villages"></table>
+      <p class="note" id="fl-samp"></p>
+      <p class="note">Arrival is minutes after t = 0 of the hydrograph (start of breach growth at the crest) until the water is deeper than 0.3 m. The breach was reported at about 05:30 to 06:00 local time. Reported villages are marked <span class="pill yes">reported</span>.</p>
+      <h3>What to trust</h3>
+      <ul class="caveats" id="fl-caveats"></ul>
+    </section>
+
+    <section class="panel" data-panel="compare" hidden>
+      <h2>SPH vs Delft3D FM</h2>
+      <p class="lede">Two different numerical methods on one scenario: a finite-volume shallow-water solver on a grid (Delft3D FM) and meshless shallow-water SPH particles. Where they agree, the map is robust to the method; where they differ, it is not.</p>
+      <div id="cm-status"></div>
+      <div class="kpis" id="cm-kpis"></div>
+      <div id="cm-detail"></div>
+      <h3>The two runs</h3>
+      <table class="data" id="cm-table"></table>
+      <div id="cm-extra"></div>
+      <div id="cm-figs"></div>
+      <h3>How to read it</h3>
+      <ul class="caveats">
+        <li>CSI (critical success index) = both wet / (either wet), over cells deeper than 0.1 m. 1 means identical extents.</li>
+        <li>POD and FAR take Delft3D FM as the reference, which is a choice, not ground truth.</li>
+        <li>Swipe shows Delft3D FM on the left and SWE-SPH on the right. Difference shows Delft3D FM minus SWE-SPH depth.</li>
+      </ul>
+    </section>
+
+    <section class="panel" data-panel="sph" hidden>
+      <h2>Near-field SPH at the breach</h2>
+      <p class="lede">DualSPHysics, built from source here, runs a vertical slice through the breach: 25 m of water released through the embankment. It checks the breach outflow physics near the dam, where a shallow-water model is least reliable.</p>
+      <div class="kpis" id="sp-kpis"></div>
+      <h3>Lab check: Koshizuka and Oka (1996) dam break</h3>
+      <div class="chart" id="sp-chart"><div class="chart-tip" id="sp-tip"></div></div>
+      <p class="note" id="sp-note"></p>
+      <h3>Breach section runs</h3>
+      <table class="data" id="sp-table"></table>
+      <p class="note">Discharge per metre of breach width, from the reservoir volume loss, averaged over the window before reflections return. Ritter (1892) is the analytic dam-break discharge for the same head.</p>
+      <div id="sp-fig"></div>
+      <details class="limits" open>
+        <summary>Caveats (<span id="sp-ncav"></span>)</summary>
+        <ul class="caveats" id="sp-caveats"></ul>
+      </details>
+    </section>
+
+    <section class="panel" data-panel="damage" hidden>
+      <h2>Loss and damage</h2>
+      <p class="lede">Who and what sits under the modelled water: people (WorldPop 2020), buildings (Google Open Buildings), cropland (ESA WorldCover 2021), roads and bridges (OpenStreetMap), by depth class.</p>
+      <div id="dm-body"></div>
+      <h3>Exposure in the model box</h3>
+      <p class="note">Everything inside the 78.97 to 79.31 E, 14.12 to 14.40 N box, before any flood depth is applied.</p>
+      <div class="kpis" id="dm-exposure"></div>
+      <ul class="caveats" id="dm-src"></ul>
+    </section>
+
+    <section class="panel" data-panel="satellite" hidden>
+      <h2>Satellite flood mapping</h2>
+      <p class="lede" id="sa-lede"></p>
+      <h3>Annamayya, November 2021: the honest result</h3>
+      <div class="kpis" id="sa-ann"></div>
+      <div class="callout twin" id="sa-ann-note"></div>
+      <div class="btn-row"><button class="btn tog" id="sa-show-ann" aria-pressed="true">Show Annamayya</button><button class="btn tog" id="sa-show-bar" aria-pressed="false">Show Barpeta demo</button></div>
+      <h3>Barpeta, Assam, June 2022: the demonstration</h3>
+      <div class="kpis" id="sa-bar"></div>
+      <p class="note" id="sa-bar-note"></p>
+      <h3>Figures</h3>
+      <div class="thumbs" id="sa-figs"></div>
+      <h3>Method</h3>
+      <div class="callout info" id="sa-method"></div>
+      <h3>Downloads</h3>
+      <div id="sa-dl"></div>
+      <details class="limits">
+        <summary>Caveats (<span id="sa-ncav"></span>)</summary>
+        <ul class="caveats" id="sa-caveats"></ul>
+      </details>
+    </section>
+
+    <section class="panel" data-panel="downloads" hidden>
+      <h2>Downloads</h2>
+      <p class="lede">Every map layer as a zipped shapefile for QGIS or ArcGIS and as KML for Google Earth, plus the rasters and tables behind them.</p>
+      <div id="dl-list"></div>
+      <p class="note" id="dl-gen"></p>
+    </section>
+  </aside>
+
+  <main class="stage">
+    <div id="map"></div>
+    <div id="swipe-line" hidden></div>
+    <div id="frame-card" hidden><img id="frame-img" alt="Time-lapse frame"></div>
+    <div id="media" hidden>
+      <div class="media-head">
+        <div class="seg" id="md-seg"></div>
+        <span class="note" id="md-cap"></span>
+      </div>
+      <video id="md-video" muted loop playsinline controls preload="metadata"></video>
+      <img id="md-snap" alt="SPH snapshots of the breach section">
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="dock" id="dock" hidden>
+      <div class="dock-row controls">
+        <div class="seg-group"><span class="label">Engine</span><div class="seg" id="dk-engine"></div></div>
+        <div class="seg-group"><span class="label">Layer</span><div class="seg" id="dk-layer"></div></div>
+      </div>
+      <div class="dock-row" id="dk-frames" hidden>
+        <button class="play" id="dk-play" aria-label="Play"></button>
+        <div class="clock"><div class="t num" id="dk-t"></div><div class="s">time-lapse frame</div></div>
+        <div class="slider-wrap"><input type="range" id="dk-slider" min="0" max="0" value="0" aria-label="Frame"></div>
+      </div>
+      <div class="fine" id="dk-fine"></div>
+    </div>
+    <div class="dock" id="cdock" hidden>
+      <div class="dock-row controls">
+        <div class="seg-group"><span class="label">View</span><div class="seg" id="ck-mode"></div></div>
+      </div>
+      <div class="dock-row" id="ck-swipe-row">
+        <span class="swipe-lab">Delft3D FM</span>
+        <div class="slider-wrap"><input type="range" id="ck-swipe" min="0" max="100" value="35" aria-label="Swipe position"></div>
+        <span class="swipe-lab">SWE-SPH</span>
+      </div>
+      <div class="fine" id="ck-fine"></div>
+    </div>
+  </main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

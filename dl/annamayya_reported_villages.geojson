@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "annamayya_reported_villages",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "label": "Mandapalle", "osm_name": "Mandapalle", "place": "village", "osm_id": 5462004296 }, "geometry": { "type": "Point", "coordinates": [ 79.0722843, 14.2468604 ] } },
+{ "type": "Feature", "properties": { "label": "Pulapathur", "osm_name": "Pulapathuru", "place": "village", "osm_id": 5462004966 }, "geometry": { "type": "Point", "coordinates": [ 79.0444644, 14.2472661 ] } },
+{ "type": "Feature", "properties": { "label": "Gundlur", "osm_name": "Gundlur", "place": "village", "osm_id": 5462004314 }, "geometry": { "type": "Point", "coordinates": [ 79.1139917, 14.2521689 ] } },
+{ "type": "Feature", "properties": { "label": "Togurupeta", "osm_name": "Togurupeta", "place": "village", "osm_id": 5462004968 }, "geometry": { "type": "Point", "coordinates": [ 79.043258, 14.2539265 ] } },
+{ "type": "Feature", "properties": { "label": "Nandalur", "osm_name": "Nandaluru", "place": "village", "osm_id": 245626858 }, "geometry": { "type": "Point", "coordinates": [ 79.1079557, 14.2704112 ] } },
+{ "type": "Feature", "properties": { "label": "Rajampet", "osm_name": "Rajampeta", "place": "town", "osm_id": 3320527151 }, "geometry": { "type": "Point", "coordinates": [ 79.1585757, 14.1935867 ] } }
+]
+}
