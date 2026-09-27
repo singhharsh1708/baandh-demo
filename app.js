@@ -128,7 +128,7 @@ function legendHtml(kind) {
   let h = "";
   if (kind === "depth" || kind === "arrival" || kind === "diff") {
     const L_ = D.legend[kind];
-    const t = kind === "depth" ? "Max water depth, m" : kind === "arrival" ? "Arrival, min after t = 0" : "Delft3D FM minus SWE-SPH, m";
+    const t = kind === "depth" ? "Max water depth, m" : kind === "arrival" ? "Arrival of 0.3 m depth, min after t = 0" : "Delft3D FM minus SWE-SPH, m";
     h += `<div class="title">${t}</div>`;
     L_.colors.forEach((c, i) => {
       const lo = L_.bins[i], hi = L_.bins[i + 1];
